@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="de"><head>
-    
-<!-- Google tag (gtag.js) -->
+<html lang="de">
+<head>
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NBFET6VNR"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -10,44 +10,109 @@
 
   gtag('config', 'G-9NBFET6VNR');
 </script>
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <title>Beispiel HTML-Seite</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #333;
-        }
-        img {
-            width: 300px;
-            border-radius: 10px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edgar Justus – Softwareentwickler</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #1d3557;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2rem;
+    }
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .contact a {
+      color: #1d3557;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <h1>Willkommen auf meiner Beispielseite!</h1>
-    <p>Dies ist eine einfache HTML-Seite mit CSS und JavaScript.</p>
-    https://via.placeholder.com/300
-    <br>
-    <button onclick="zeigeNachricht()">Klick mich!</button>
 
-    <script>
-        function zeigeNachricht() {
-            alert("Hallo! Du hast den Button geklickt.");
-        }
-    </script>
+<header>
+  <h1>Edgar Justus</h1>
+  <p>Softwareentwickler · M.Sc. Informatik</p>
+</header>
 
+<div class="section">
+  <img src="https://via.placeholder.com/300" alt="Profilbild" class="profile-img">
+  <h2>Über mich</h2>
+  <p>
+    Ich bin Softwareentwickler mit Schwerpunkt auf Systementwicklung, Algorithmik und moderner Softwarearchitektur.
+    Während meines Informatik-Masterstudiums an der Universität Freiburg und meiner Tätigkeit als
+    Research/Software Engineer habe ich an komplexen Projekten von SAT-/MaxSAT-Solvern bis zu Webanwendungen gearbeitet.
+  </p>
+</div>
 
-</body></html>
+<div class="section">
+  <h2>Berufserfahrung</h2>
+  <ul>
+    <li><strong>IT Engineer, Deutsches Seminar</strong> (2020–2025) – EDV-Betreuung, Automatisierungen, technische Unterstützung.</li>
+    <li><strong>Research/Software Engineer, Computerarchitektur</strong> (2024–2025) – Weiterentwicklung des MaxHS-Solvers.</li>
+    <li><strong>Web Engineer, Germanistische Mediävistik</strong> (2024) – Pflege und Entwicklung der Professur-Webseite.</li>
+    <li><strong>Software Engineer, HRworks</strong> (2019) – Entwicklung interner Softwaremodule.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Projekte</h2>
+  <ul>
+    <li>SCIP-Integration in MaxHS (Masterarbeit)</li>
+    <li>Eigener BDD-basierter MaxSAT-Solver</li>
+    <li>Rust-Vektor-Crate</li>
+    <li>Hanabi-KI</li>
+    <li>Tetris für das Terminal (C++)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Kontakt</h2>
+  <div class="contact">
+    <p>Werner-von-Siemens-Str. 7 · 79395 Neuenburg am Rhein</p>
+    <p>Telefon: +49 1577 5283030</p>
+    <p>E-Mail: <a href="mailto:edgarjustus@outlook.com">edgarjustus@outlook.com</a></p>
+  </div>
+</div>
+
+</body>
+</html>
